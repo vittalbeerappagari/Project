@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 		)
 
 public class SwaglabsLoginRunner {
-	@AfterClass
+	@AfterClass  //used to generate extentReport
 	public static void extendReport() {
     Reporter.loadXMLConfig("C:\\javacoding\\Cucumber_SauceDemo\\extent_cofig.xm");
 	
